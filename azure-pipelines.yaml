@@ -5,7 +5,7 @@ stages:
 - stage: build
 
   pool:
-   name: keda-pool
+   name: linux-containers-aks
    # vmImage: ubuntu-latest
 
   jobs:
